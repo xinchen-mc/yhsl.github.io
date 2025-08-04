@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>永恒森林 Minecraft 服务器</title>
     <style>
-        /* 全局样式重置 */
         * {
             margin: 0;
             padding: 0;
@@ -29,8 +28,6 @@
             min-height: 100vh;
             backdrop-filter: blur(5px);
         }
-        
-        /* 头部样式 */
         header {
             text-align: center;
             padding: 40px 0;
@@ -53,8 +50,6 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        
-        /* 服务器信息区域 */
         .server-info {
             background: rgba(0, 0, 0, 0.6);
             padding: 25px;
@@ -65,7 +60,6 @@
             border: 1px solid #4CAF50;
             box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
         }
-        
         .ip-box {
             display: flex;
             align-items: center;
@@ -73,12 +67,10 @@
             gap: 15px;
             flex-wrap: wrap;
         }
-        
         .ip-box span {
             font-size: 1.3rem;
             color: #eee;
         }
-        
         #server-ip {
             font-size: 1.4rem;
             font-weight: bold;
@@ -88,7 +80,6 @@
             border-radius: 6px;
             font-family: 'Courier New', monospace;
         }
-        
         button {
             background: linear-gradient(135deg, #4CAF50, #2E7D32);
             color: white;
@@ -100,7 +91,6 @@
             transition: all 0.3s ease;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        
         button:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
@@ -110,8 +100,6 @@
         button:active {
             transform: translateY(0);
         }
-        
-        /* 特色功能区域 */
         .features {
             display: flex;
             flex-wrap: wrap;
@@ -119,7 +107,6 @@
             justify-content: center;
             margin: 50px 0;
         }
-        
         .feature-card {
             background: rgba(0, 0, 0, 0.6);
             padding: 25px;
@@ -129,13 +116,11 @@
             transition: all 0.3s ease;
             border: 1px solid rgba(76, 175, 80, 0.3);
         }
-        
         .feature-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
             border-color: #4CAF50;
         }
-        
         .feature-card h3 {
             font-size: 1.5rem;
             color: #4CAF50;
@@ -145,13 +130,10 @@
             justify-content: center;
             gap: 10px;
         }
-        
         .feature-card p {
             color: #ccc;
             font-size: 1.1rem;
         }
-        
-        /* 页脚样式 */
         footer {
             text-align: center;
             margin-top: 80px;
@@ -160,8 +142,6 @@
             font-size: 1rem;
             border-top: 1px solid rgba(76, 175, 80, 0.2);
         }
-        
-        /* 响应式设计 */
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2.5rem;
@@ -181,8 +161,6 @@
                 max-width: 350px;
             }
         }
-        
-        /* 动画效果 */
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
